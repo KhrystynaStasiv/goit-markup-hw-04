@@ -262,6 +262,7 @@ section {
     background: var(--CLOUD, #F4F4FD);
     display: block;
     flex-shrink: 0;
+    margin-bottom: 8px;
 }
 .icon {
     margin: 24px 100px;
@@ -310,7 +311,6 @@ section {
     letter-spacing: 0.02em;
     text-align: center;
     align-items: center;
-    margin-top: 32px;
     margin-bottom: 8px;
 }
 
@@ -324,13 +324,15 @@ section {
     letter-spacing: 0.02em;
     text-align: center;
     align-items: center;
-    margin-bottom: 32px;
 }
 
 .team-member {
-    display: flex;
-    flex-direction: column;
-    padding: 32px 0;
+    width: 232px;
+        display: flex;
+        flex-direction: column;
+        padding: 32px 0;
+        align-items: center;
+        margin: 0 16px;
 }
 
 
